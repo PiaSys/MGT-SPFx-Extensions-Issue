@@ -29,8 +29,6 @@ export default class UseMgtCommandSet extends BaseListViewCommandSet<IUseMgtComm
     Log.info(LOG_SOURCE, 'Initialized UseMgtCommandSet');
 
     // Initialize the MGT components infrastructure
-    // => Uncomment these 3 lines of code, build (nom run build:prod), publish on the AppCatalog and it will not work
-    // =>
     // if (!Providers.globalProvider) {
     //   Providers.globalProvider = new SharePointProvider(this.context);
     // }

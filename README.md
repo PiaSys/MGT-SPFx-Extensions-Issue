@@ -9,7 +9,7 @@ To see the issue in action:
 - Remove the package from the App Catalog
 
 Now:
-- Open file [](./src/extensions/useMgt/UseMgtCommandSet.ts) and uncomment line 11 and lines from 34 to 36.
+- Open file [](./src/extensions/useMgt/UseMgtCommandSet.ts) and uncomment line 11 and lines from 32 to 34.
 - Build the solution as is with "npm run build:prod"
 - Publish the SPPKG in the App Catalog
 - Test it on any Document Library in any site with F12
